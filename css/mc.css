@@ -1,0 +1,355 @@
+
+	.top-bottom-container{
+		height:70px;
+		width:100%;
+		background-color:#1C1C1C;
+		padding:0px;
+		}
+	.clearer{
+		clear:both;
+	}
+	.top-bottom,.top-bottoma,.top-bottomb{
+		float:left;
+		display:block;
+		width:7%;
+		height:100%;
+		text-align:center;
+		line-height:70px;
+		color:#737373;
+		font-size: 15px;
+		font-family:SimHei,sans-serif;
+	}
+	.top-bottom-container{
+		margin-bottom:0px;
+
+	}
+	.banner{
+		display:block;
+		float:left;
+		position:absolute;
+		z-index:1;
+	}
+	.tri-bottom{
+		width:120px;
+		height:32px;
+		background-color:red;
+		float:right;
+		margin-top:1.5%;
+		cursor: pointer;
+	}
+
+	img{
+		display:block;
+		margin:0px;
+		float:left;
+	}
+	.top-bottoma{
+		margin-left:22%;
+	}
+	.first-bj-container{
+		width:100%;
+		background-image:url(../image/banner-first.png);
+		height:586px;
+		background-position:center;
+	}
+	.first-bj{
+		display:block;
+		width:100%;
+	}
+	.downside-bottom {
+	    width: 43px;
+	    height: 43px;
+	    background-image: url(../image/downsideA.png);
+	    position: absolute;
+	    left: 48.5%;
+	    margin-top: -85px;
+	}
+	.whatwedo-container{
+		padding:10px,0px;
+		background-image:url(../image/whatvdo.png);
+		height:46px;
+		background-position:center;
+		background-repeat:no-repeat;
+		margin-top:30px;
+	}
+	.bottom-border{
+		background-image:url(../image/border-bottom3.png);
+		width:100%;
+		height:3px;
+		background-position:center;
+		margin-top:20px;
+	}
+	h4{
+		text-align:center;
+		width:100%;
+		margin-top: 50px;
+	    font-family: "微软雅黑";
+	    font-size: 24px;
+	    color: #898989;
+	}
+	li{
+		list-style-type:none;
+	}
+	.rowA{
+		margin-top:100px;
+	}
+	.whatwedo {
+	    clear: both;
+	    margin-top: 20px;
+	    font-size: 10px;
+	    text-align: center;
+	    color: gray;
+	    font-family: sans-serif;
+	    line-height: 22px;
+	}
+	.whatwedo>span{
+		font-family: "微软雅黑";
+	    font-size: 18px;
+	    color: #545454;
+	    display: block;
+	    text-align:center;
+	}
+	li{
+		display: block;
+	}
+	.whatwedopic{
+		margin:auto;
+		height:122px;
+		width:122px;
+	}
+	.downsidebottom2 {
+	    width: 43px;
+	    height: 43px;
+	    background-image: url(../image/downsideB.png);
+	    left: 48.5%;
+	    position: relative;
+	    bottom: -80px;
+	}
+	.second-bj{
+		width:100%;
+		background-image:url(../image/banner-second3.png);
+		height:944px;
+		background-position:center;
+		background-repeat:none;
+	}
+	.controler{
+		width:100%;
+		height:100px;
+	}
+	.second-bj>img {
+	    display: block;
+	    margin-left: 40%;
+	    margin-top: 130px;
+	}
+	.border-bottom2{
+		width:100%;
+		height:3px;
+		background-image:url(../image/border-bottom2.png);
+		background-position: center;
+	}
+	.second-bj>ul>.col-lg-2{
+		width:20%;
+	}
+	.second-bj>ul{
+		margin-top:75px;
+	}
+	.changewordsA{
+	    font-family: "微软雅黑";
+	    font-size: 22px;
+	    color: #565656;
+	    width: 85px;
+	    padding-top: 11px;
+	    border-top: 3px solid #565656;
+	    text-align: center;
+	    float: left;
+	    margin-right
+	}
+	.anlikehu{
+		margin:auto;
+		width:170px;
+		margin-top:40px;
+	}
+	.downsidebottom3{
+		margin-top:40px;
+		background-image:url(../image/downsideC.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		height:43px;
+	}
+	.third-bj{
+		height:762px;
+		background-image:url(../image/banner-third.png);
+		background-position:center;
+		width:100%;
+		background-color:#2D2D2D;
+	}
+	.news{
+		background-image:url(../image/news.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		width:100%;
+		height:44px;
+	}
+	.third-bj li{
+		height:85px;
+	}
+	.leftword,.rightword{
+		width:45%;
+		height:75px;
+		font-size: 14px;
+	    display: block;
+	    font-family: "微软雅黑";
+	    color: #bfbfc0;
+	}
+	.iconA,.iconB,.iconC{
+		width:10%;
+		height:75px;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+	.leftword{
+		float:left;
+		text-align:right;
+	}
+	.iconA{
+		background-image:url(../image/iconA.png);
+	}
+	.afl{
+		float:left;
+	}
+	.afr{
+		float:right;
+	}
+	.rightword{
+		float:right;
+		text-align:left;
+	}
+	.iconB{
+		background-image:url(../image/iconB.png);
+	}
+	.iconC{
+		background-image: url(../image/iconC.png);
+	}
+	.morebottom{
+		margin-top:30px;
+		height:50px;
+		width:200px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-image:url(../image/more.png);
+		margin:auto;
+		color:white;
+		text-align:center;
+		line-height:50px;
+		font-weight:bold;
+		cursor: pointer;
+	}
+	h5{
+		font-size: 16px;
+	    display: block;
+	    font-family: "微软雅黑";
+	    color: #282828;
+	}
+	.news>div>ul{
+		margin-bottom:0px;
+	}
+	.downsidebottom4{
+		width:100%;
+		height:43px;
+		background-image:url(../image/downsideD.png);
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	.fifth-bj{
+		height:620px;
+		width:100%;
+		background-color:#2D2D2D;
+	}
+	.contactus{
+		background-image: url(../image/contactus.png);
+		background-position:center;
+		background-repeat:no-repeat;
+		height:45px;
+	}
+	.inmap{
+		height:489px;
+		width:100%;
+		background-image:url(../image/map.jpg);
+		background-position:center;
+	}
+	.adebanner{
+		background-image:url(../image/debanner-foot.png);
+		width:100%;
+		background-position:center,bottom;
+		position: relative;
+    	top: -88px;
+    	height: 397px;
+	}
+	.adebanner .afr{
+		font-family: "微软雅黑";
+    	font-size: 20px;
+   		color: #000000;
+   		width:30%;
+   		height:100px;
+	    line-height:100px;
+	}
+	.alastword{
+		position:relative;
+		top:30px;
+	}
+	.third-bj>ul>li{
+		cursor:pointer;
+	}
+	.whatwedopic{
+		cursor:pointer;
+	}
+	.second-bj>ul>li{
+		cursor:pointer;
+	}
+	.changewordsA{
+		cursor:pointer;
+	}
+	.adebanner .afl{
+		font-family: "微软雅黑";
+	    font-size: 20px;
+	    color: #000000;
+	    text-align:right;
+	    width:30%;
+	    height:100px;
+	    line-height:100px;
+	}
+	.alastpic{
+		width:100px;
+		height:100px;
+	}
+	.aPICA{
+		background-image:url(../image/footico.png);
+		float:left;
+	}
+	.aPICB{
+		background-image:url(../image/footico2.png);
+		float:left;
+	}
+	.aPICC{
+		background-image:url(../image/footico3.png);
+		float:left;
+	}
+	.afc{
+		float:left;
+		width:40%;
+		height:100px;
+	}
+	.aPICA,.aPICB,.aPICC{
+		margin-left:10px;
+		margin-right:10px;
+		cursor: pointer;
+	}
+	.alastword span{
+		margin: 0 auto;
+	    display: block;
+	    width: 855px;
+	    color: #333333;
+	    font-family: "微软雅黑";
+    	font-size: 14px;
+    	text-align: center;
+	}

@@ -1,0 +1,160 @@
+/*	导航栏和小标志
+			<ul class="top-bottom-container">
+				<img class="banner"src="image/banner.png"/>
+				<li class="top-bottoma">首页  </li>
+				<li class="top-bottom" >关于  </li>
+				<li class="top-bottom" >O2O   </li>
+				<li class="top-bottom" >UED   </li>
+				<li class="top-bottom" >摩比奥</li>
+				<li class="top-bottom" >案例  </li>
+				<li class="top-bottom" >客户  </li>
+				<li class="top-bottomb">动态  </li>
+				<div class="tri-bottom">
+					<img class="tri-bottoms" src="image/top-bottom.png" />
+					<img class="tri-bottoms" src="image/top-bottom2.png"/>
+					<img class="tri-bottoms" src="image/top-bottom3.png"/>
+				</div>
+				<div class="clearer"></div>
+			</ul>
+			CSS*/
+	.top-bottom-container{
+		height:70px;
+		width:100%;
+		background-color:#1C1C1C;
+		padding:0px;
+	}
+	.clearer{
+		clear:both;
+	}
+	.top-bottom,.top-bottoma,.top-bottomb{
+		float:left;
+		display:block;
+		width:7%;
+		height:100%;
+		text-align:center;
+		line-height:70px;
+		color:#737373;
+		font-size: 15px;
+		font-family:SimHei,sans-serif;
+	}
+	.top-bottom-container{
+		margin-bottom:0px;
+
+	}
+	.banner{
+		display:block;
+		float:left;
+		position:absolute;
+		z-index:1;
+	}
+	.tri-bottom{
+		width:120px;
+		height:32px;
+		background-color:red;
+		float:right;
+		margin-top:1.5%;
+	}
+
+	img.tri-bottoms{
+		display:block;
+		margin:0px;
+		float:left;
+	}
+	.top-bottoma{
+		margin-left:22%;
+	}
+
+
+
+
+/*	黑色的底座
+		<div class="debanner">
+			<div class="fl">有心&nbsp;有新意&nbsp;木鱼有约</div>
+			<div class="fc">
+				<div style="margin:auto;width:360px">
+					<div class="lastpic PICA"></div>
+					<div class="lastpic PICB"></div>
+					<div class="lastpic PICC"></div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="fr">欢迎拨打&nbsp;189-055137070551-6561&nbsp;2007</div>
+		</div>
+		<div class="lastword">
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+			<span style="color:gray">© 2014 www.muyu007.com All Rights Reserved. 皖B2-20110088</span>
+		</div>
+			CSS*/
+	.fr{
+		font-family: "微软雅黑";
+    	font-size: 20px;
+   		color: #000000;
+   		width:30%;
+   		height:100px;
+	    line-height:100px;
+	}
+	.fl{
+		font-family: "微软雅黑";
+	    font-size: 20px;
+	    color: #000000;
+	    text-align:right;
+	    width:30%;
+	    height:100px;
+	    line-height:100px;
+	}
+	.lastpic{
+		width:100px;
+		height:100px;
+	}
+	.PICA{
+		background-image:url(../image/QQ-ICO.png);
+		float:left;
+	}
+	.PICB{
+		background-image:url(../image/WX-ICO.png);
+		float:left;
+	}
+	.PICC{
+		background-image:url(../image/WB-ICO.png);
+		float:left;
+	}
+	.fc{
+		float:left;
+		width:40%;
+		height:100px;
+	}
+	.PICA,.PICB,.PICC{
+		margin-left:10px;
+		margin-right:10px;
+	}
+	.debanner {
+	    background-image: url(../image/debanner-black.png);
+	    width: 100%;
+	    background-position: center,bottom;
+	    position: relative;
+	    top: -88px;
+	    height: 397px;
+	}
+	.lastword span{
+		margin: 0 auto;
+	    display: block;
+	    width: 855px;
+	    color: #333333;
+	    font-family: "微软雅黑";
+    	font-size: 14px;
+    	text-align: center;
+	}
+	.lastword{
+		position:relative;
+		top:30px;
+	}
+
+
+	
+
+
+
+
+
+

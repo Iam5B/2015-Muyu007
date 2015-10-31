@@ -1,0 +1,287 @@
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/bootstrap.css"/>
+	<link rel="stylesheet" href="./css/bootstrap-theme.css"/>
+	<link rel="stylesheet" href="./css/public-css.css"/>
+	<link rel="stylesheet" href="./css/gadget.css"/>
+</head>
+<body>
+</body>
+</html>
+
+以上是开头的格式
+*/
+
+
+
+
+/*	导航栏和小标志
+<ul class="top-bottom-container">
+	<img class="banner"src="image/banner.png"/>
+	<li class="top-bottoma">首页  </li>
+	<li class="top-bottom" >关于  </li>
+	<li class="top-bottom" >O2O   </li>
+	<li class="top-bottom" >UED   </li>
+	<li class="top-bottom" >摩比奥</li>
+	<li class="top-bottom" >案例  </li>
+	<li class="top-bottom" >客户  </li>
+	<li class="top-bottomb">动态  </li>
+	<div class="tri-bottom">
+		<img class="tri-bottoms" src="image/top-bottom.png" />
+		<img class="tri-bottoms" src="image/top-bottom2.png"/>
+		<img class="tri-bottoms" src="image/top-bottom3.png"/>
+	</div>
+	<div class="clearer"></div>
+</ul>
+			CSS*/
+	.top-bottom-container a{
+		text-decoration: none;
+		color:#767676;
+	}
+	.top-bottom-container a:hover{
+		text-decoration: none;
+		color:white;
+	}
+	.top-bottom-container{
+		height:70px;
+		width:100%;
+		background-color:#1C1C1C;
+		padding:0px;
+	}
+	.clearer{
+		clear:both;
+	}
+	.top-bottom,.top-bottoma,.top-bottomb{
+		float:left;
+		display:block;
+		width:7%;
+		height:100%;
+		text-align:center;
+		line-height:70px;
+		color:#737373;
+		font-size: 15px;
+		font-family:SimHei,sans-serif;
+	}
+	.top-bottom-container{
+		margin-bottom:0px;
+
+	}
+	.banner{
+		display:block;
+		float:left;
+		position:absolute;
+		z-index:1;
+	}
+	.tri-bottom{
+		width:120px;
+		height:32px;
+		background-color:red;
+		float:right;
+		margin-top:1.5%;
+	}
+
+	img.tri-bottoms{
+		display:block;
+		margin:0px;
+		float:left;
+		cursor: pointer;
+	}
+	.top-bottoma{
+		margin-left:22%;
+	}
+
+
+
+
+/*白色的次级底座
+	<div class="page-consult">
+		<span class="mainwords">定制每个不一样的你</span>
+		<font>量身定制，整合提升。我们适合为不同的你，做最适合的网站。</font>
+		<a>更多案例</a>
+	</div>
+
+
+*/
+
+.page-consult{
+	padding-top: 55px;
+    height: 268px;
+    width: 100%;
+    background: #F3F3F3;
+    text-align: center;
+}
+.page-consult>span{
+	margin-bottom: 15px;
+	font-family: "微软雅黑";
+    font-size: 30px;
+    color: #262626;
+    display: block;
+}
+.page-consult>font{
+	color: #bfbfbf;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    display: block;
+    margin-bottom: 35px;
+}
+.page-consult>a{
+	background: url(../image/moreB.png) no-repeat;
+    width: 116px;
+    height: 37px;
+    line-height: 37px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+ }
+
+
+
+
+
+
+/*
+	黑色的底座
+		<div class="debanner">
+			<div style="height:150px"></div>
+			<div class="fl">有心&nbsp;有新意&nbsp;木鱼有约</div>
+			<div class="fc">
+				<div style="margin:auto;width:360px">
+					<div class="lastpic PICA"></div>
+					<div class="lastpic PICB"></div>
+					<div class="lastpic PICC"></div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="fr">欢迎拨打&nbsp;189-055137070551-6561&nbsp;2007</div>
+			<div class="lastword">
+				<span>&nbsp;</span>
+				<span>&nbsp;</span>
+				<span style="color:gray">© 2014 www.muyu007.com All Rights Reserved. 皖B2-20110088</span>
+			</div>
+		</div>
+
+			CSS*/
+	.fr{
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #d3d3d3;
+    width:30%;
+    float:left;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+	}
+	.fl{
+	font-family: "微软雅黑";
+    font-size: 20px;
+    color: #d3d3d3;
+    width:30%;
+    float:left;
+    height:100px;
+    line-height:100px;
+    text-align:center;
+	}
+	.lastpic{
+		width:100px;
+		height:100px;
+	}
+	.PICA{
+		background-image:url(../image/QQ-ICO.png);
+		float:left;
+		cursor: pointer;
+	}
+	.PICB{
+		background-image:url(../image/020-ICO.png);
+		float:left;
+		cursor: pointer;
+	}
+	.PICC{
+		background-image:url(../image/WB-ICO.png);
+		float:left;
+		cursor: pointer;
+	}
+	.fc{
+		float:left;
+		width:40%;
+		height:100px;
+		float:left;
+	}
+	.PICA,.PICB,.PICC{
+		margin-left:10px;
+		margin-right:10px;
+		cursor: pointer;
+	}
+	.debanner {
+    background-image: url(../image/debanner-black.png);
+    width: 100%;
+    background-position: center,bottom;
+    position: relative;
+    top: -104px;
+    height: 380px;
+	}
+	.lastword span{
+		margin: 0 auto;
+	    display: block;
+	    width: 855px;
+	    color: #333333;
+	    font-family: "微软雅黑";
+    	font-size: 14px;
+    	text-align: center;
+	}
+	.lastword{
+		position:relative;
+		top:30px;
+	}
+
+
+	
+/*
+下拉式小按钮(白)
+		<div class="downsidebottomW">  然而你的上一级必须是position：relative
+			<div></div>
+		</div>
+*/
+
+.downsidebottomW{
+	width:100%;
+	height:43px;
+	position:absolute;
+	bottom:30px;
+	cursor: pointer;
+}
+.downsidebottomW>div{
+	width:43px;
+	height:43px;
+	background-image:url(../image/downsideA.png);
+	margin:auto;
+	cursor: pointer;
+}
+
+/*
+下拉式小按钮(黑)
+		<div class="downsidebottomB">  然而你的上一级必须是position：relative
+			<div></div>
+		</div>
+*/
+
+.downsidebottomB{
+	width:100%;
+	height:43px;
+	position:absolute;
+	bottom:30px;
+	cursor: pointer;
+}
+.downsidebottomB>div{
+	width:43px;
+	height:43px;
+	background-image:url(../image/downsideB.png);
+	margin:auto;
+	cursor: pointer;
+}
+
